@@ -26,8 +26,6 @@ def calcXY(command, index):
         y = var_history[var2]
     return x, y
 
-
-
 while 1:
     if command.lower() == "quit":
         sys.exit()
@@ -86,5 +84,3 @@ while 1:
         print("undefined")
 
     command = input()
-
-
